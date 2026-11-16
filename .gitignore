@@ -1,0 +1,15 @@
+# Sadece bu bilgisayarda kullanılan dosyalar
+onizleme/
+.claude/
+worker/node_modules/
+worker/.wrangler/
+_site/
+node_modules/
+.yayin-yasak
+
+# Test sitesinin (Cloudflare Pages) yükleme klasörü
+pages/public/
+pages/.wrangler/
+pages/.hesap
+
+.wrangler/
