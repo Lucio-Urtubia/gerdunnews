@@ -1,0 +1,10 @@
+# Derleme çıktıları ve makineye özel / gizli dosyalar (kaynak kod depoda kalır)
+/build/
+/app/build/
+.gradle/
+local.properties
+*.apk
+*.aab
+*.keystore
+*.jks
+*.idsig

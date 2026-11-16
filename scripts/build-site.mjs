@@ -11,7 +11,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, '_site');
 const FILES = ['index.html', 'gizlilik.html', 'manifest.webmanifest', 'sw.js', 'config.js', 'i18n.js', 'app.js', 'style.css', 'icons.css', 'icons.js',
   'space.js', 'space-data.js', 'space-extras.js', '_headers'];
-const DIRS = ['assets', 'data'];
+const DIRS = ['assets', 'data', '.well-known'];
 const SKIP = new Set(['data/events.json']);
 const FORBIDDEN = await fs.readFile(path.join(ROOT, '.yayin-yasak'), 'utf8')
   .then((t) => t.split(/\r?\n/).map((s) => s.trim()).filter(Boolean))

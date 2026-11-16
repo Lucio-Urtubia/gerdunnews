@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "news.gerdun.app",
+      "sha256_cert_fingerprints": [
+        "C6:1A:DF:0F:7A:DF:19:36:CA:16:F2:05:0C:93:21:A5:95:F4:0B:7F:7E:19:00:41:97:9A:62:05:3A:E4:93:64"
+      ]
+    }
+  }
+]
