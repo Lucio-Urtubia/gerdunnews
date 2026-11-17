@@ -1,0 +1,26 @@
+{
+  "name": "gerdunnews-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GerdûnNews — native app wrapper (Capacitor) for Google Play and App Store",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "node build-app.mjs",
+    "sync": "node build-app.mjs && cap sync",
+    "open:android": "cap open android",
+    "open:ios": "cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/app": "^6.0.2",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/ios": "^6.2.0",
+    "@capacitor/share": "^6.0.3",
+    "@capacitor/splash-screen": "^6.0.3",
+    "@capacitor/status-bar": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^6.2.0"
+  }
+}

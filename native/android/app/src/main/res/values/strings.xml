@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GerdûnNews</string>
+    <string name="title_activity_main">GerdûnNews</string>
+    <string name="package_name">news.gerdun.app</string>
+    <string name="custom_url_scheme">news.gerdun.app</string>
+</resources>
